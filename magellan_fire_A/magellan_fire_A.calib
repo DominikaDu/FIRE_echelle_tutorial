@@ -1,0 +1,68 @@
+# Auto-generated calibration association file using PypeIt version:  1.18.1
+# UTC 2026-07-29T19:41:48.094+00:00
+# NOTE: DET01 is a placeholder for the reduced detectors/mosaics
+A:
+  --:
+    decker: default
+    dichroic: default
+    dispname: Echelle
+  0:
+    arc:
+      proc:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Arc_A_0_DET01.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/WaveCalib_A_0_DET01.fits
+      raw:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0015.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0016.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0017.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0018.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0019.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0020.fits
+    pixelflat:
+      proc:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Flat_A_0_DET01.fits
+      raw:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0003.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0004.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0005.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0006.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0007.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0008.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0009.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0010.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0011.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0012.fits
+    science:
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0017.fits
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0018.fits
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0019.fits
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0020.fits
+    standard:
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0015.fits
+    - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0016.fits
+    tilt:
+      proc:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Tiltimg_A_0_DET01.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Tilts_A_0_DET01.fits
+      raw:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0015.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0016.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0017.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0018.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0019.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0020.fits
+    trace:
+      proc:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Edges_A_0_DET01.fits.gz
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Calibrations/Slits_A_0_DET01.fits.gz
+      raw:
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0003.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0004.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0005.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0006.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0007.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0008.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0009.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0010.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0011.fits
+      - /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw/fire_0012.fits

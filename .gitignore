@@ -1,0 +1,9 @@
+Calibrations
+QA
+Science
+*.par
+*.pdf
+*.fits
+*.flux
+*.coadd1d
+*.tell

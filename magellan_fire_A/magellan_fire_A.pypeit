@@ -1,0 +1,48 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.18.1
+# UTC 2026-07-29T19:08:38.429+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = magellan_fire
+[calibrations]
+    [[slitedges]]
+        edge_thresh = 2
+[reduce]
+    [[findobj]]
+        snr_thresh=5.0
+        ech_find_max_snr=0.50
+        ech_find_min_snr=0.20
+        ech_find_nabove_min_snr=1
+
+# Setup
+setup read
+Setup A:
+  decker: default
+  dichroic: default
+  dispname: Echelle
+setup end
+
+# Data block 
+data read
+ path /Users/dominikadurovcikova/Library/CloudStorage/Box-Box/dominika/observations/FIRE_echelle_tutorial/Raw
+        filename |        frametype |          ra |         dec |     target | dispname |  decker | binning |                mjd | airmass | exptime | dichroic | calib | comb_id | bkg_id
+# fire_0013.fits |             None |  319.068931 | -29.0583577 |    QuartzH |  Echelle | default |     1,1 | 2459959.2741898154 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+# fire_0014.fits |             None | 319.7660654 | -29.0583388 |    QuartzH |  Echelle | default |     1,1 | 2459959.2760532415 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0015.fits | arc,standard,tilt |  88.4493226 |  15.8932294 |       GD71 |  Echelle | default |     1,1 |   2459959.52775463 |   1.905 |   200.8 |  default |     0 |       1 |     2
+  fire_0016.fits | arc,standard,tilt |  88.4490298 |  15.8927578 |       GD71 |  Echelle | default |     1,1 |  2459959.531956019 |   1.856 |   200.8 |  default |     0 |       2 |     1
+  fire_0017.fits | arc,science,tilt |  25.9360241 | -33.3485452 | J0142-3327 |  Echelle | default |     1,1 | 2459959.5428472226 |   1.076 |  1204.7 |  default |     0 |       3 |     4
+  fire_0018.fits | arc,science,tilt |  25.9371477 | -33.3485463 | J0142-3327 |  Echelle | default |     1,1 |  2459959.559108797 |   1.118 |  1204.7 |  default |     0 |       4 |     3
+  fire_0019.fits | arc,science,tilt |  25.9373556 | -33.3486576 | J0142-3327 |  Echelle | default |     1,1 |  2459959.575092593 |   1.144 |  1807.1 |  default |     0 |       5 |     6
+  fire_0020.fits | arc,science,tilt |  25.9371477 | -33.3485463 | J0142-3327 |  Echelle | default |     1,1 |  2459959.598796297 |    1.24 |  1807.1 |  default |     0 |       6 |     5
+  fire_0003.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 | 2459959.2642708337 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0004.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 | 2459959.2651388897 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0005.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 |  2459959.266006945 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0006.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 | 2459959.2668750007 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0007.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 |  2459959.267743056 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0008.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 | 2459959.2686111117 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0009.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 |  2459959.269490741 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0010.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 | 2459959.2703472227 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0011.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 |  2459959.271226852 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+  fire_0012.fits |  pixelflat,trace | 315.5048884 | -29.0584535 |    QuartzH |  Echelle | default |     1,1 |  2459959.272094908 |     1.0 |    10.0 |  default |     0 |      -1 |     -1
+data end
+
