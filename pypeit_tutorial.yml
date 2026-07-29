@@ -1,0 +1,17 @@
+name: pypeit_tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.14
+  - numpy
+  - astropy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - ipython
+  - pyside6
+  - llvm-openmp
+  - pip
+  - pip:
+    - pypeit==1.18.1
+    - specutils>=2.0
